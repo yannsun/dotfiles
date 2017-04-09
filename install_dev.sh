@@ -51,6 +51,8 @@ sudo mv composer.phar /usr/local/bin/composer;
 ##修改全局配置文件
 composer config -g repo.packagist composer https://packagist.phpcomposer.com;
 
+#配置samba共享
+
 #下载项目
 cd ~;
 ##github上的项目
