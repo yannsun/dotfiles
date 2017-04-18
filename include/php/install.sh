@@ -5,4 +5,18 @@ sudo apt-get install php-mysql;
 sudo apt-get install php7.0-curl;
 sudo apt-get install php7.0-mbstring;
 sudo apt-get install php7.0-xml;
-sudo apt-get install php7.0-zip
+sudo apt-get install php7.0-zip;
+
+#安装phpredis扩展
+##下载和安装phpredis
+git clone  https://github.com/phpredis/phpredis.git;
+cd phpredis;
+git checkout php7;
+phpize;
+./configure;
+sudo make && sudo make install;
+##启动扩展
+sudo vim /etc/php/7.0/fpm/php.ini;
+###[Redis]
+###extension=redis.so
+sudo service php7.0-fpm restart
