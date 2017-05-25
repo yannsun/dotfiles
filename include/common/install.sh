@@ -9,3 +9,4 @@ sudo apt-get install git;
 sudo apt-get install ctags;
 ##安装build-essential
 sudo apt-get insatll build-essential;
+sudo apt-get install autoconf;
