@@ -30,26 +30,18 @@ sudo apt-get install ctags;
 sudo apt-get insatll build-essential;
 ##安装php
 
-#配置bash
+# Bash
 
-#配置vim
-##安装Vundle
+
+# Tmux
+
+# Vim
+## 安装Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
-##安装vim插件
+## 安装vim插件
 vim +PluginInstall +qall;
 
-#配置composer
-cd ~;
-##下载安装脚本
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');";
-##执行安装过程
-php composer-setup.php;
-##删除安装脚本
-php -r "unlink('composer-setup.php');";
-##全局安装composer
-sudo mv composer.phar /usr/local/bin/composer;
-##修改全局配置文件
-composer config -g repo.packagist composer https://packagist.phpcomposer.com;
+# Composer
 
 #配置samba共享
 
