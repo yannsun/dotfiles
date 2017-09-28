@@ -13,6 +13,8 @@ Plugin 'scrooloose/nerdtree' 	  "nerdtree插件
 Plugin 'mhinz/vim-startify'  	  "vim首页美化插件
 Plugin 'majutsushi/tagbar'   	  "展示类和方法结构插件
 Plugin 'dracula/vim'			  "主题
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " 必须
 filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
 
@@ -26,14 +28,23 @@ set tabstop=4		   		  "设置tab键为4个空格
 set tags+=./tags			  "设置tags目录
 set hlsearch                  "高亮搜索
 set noswapfile				  "不生成swp文件
+set backspace=indent,eol,start
 
 " 编码设置
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 set enc=utf8
 set fencs=utf8,gbk,gb2312,gb18030
 
+" 主题设置
+let g:solarized_termcolors=256
+syntax enable
+set background=dark
+colorscheme solarized
+"syntax on
+"colorscheme dracula
+
 " 快捷键设置
 map <F9>  :NERDTreeToggle<CR>
 map <C-N> :tabnext<CR>  
-map <C-B> :tabprevious<CR>  
+map <C-M> :tabprevious<CR>  
 map <F10> :TagbarToggle<CR>

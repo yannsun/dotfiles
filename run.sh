@@ -40,6 +40,10 @@ sudo apt-get insatll build-essential;
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
 ## 安装vim插件
 vim +PluginInstall +qall;
+## 配置用户信息
+git config --global user.name "yannsun"
+git config --global user.email "sunjinliang1992@gmail.com"
+git config --global core.editor vim
 
 # Composer
 
