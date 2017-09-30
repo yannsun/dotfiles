@@ -5,15 +5,17 @@
 "Vundle设置
 set nocompatible              " 去除VI一致性,必须
 filetype off                  " 必须
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree' 	  "nerdtree插件
-Plugin 'mhinz/vim-startify'  	  "vim首页美化插件
-Plugin 'majutsushi/tagbar'   	  "展示类和方法结构插件
-Plugin 'dracula/vim'			  "主题
-Plugin 'fatih/vim-go'			  "golang
+Plugin 'scrooloose/nerdtree' 	  " nerdtree插件
+Plugin 'mhinz/vim-startify'  	  " vim首页美化插件
+Plugin 'majutsushi/tagbar'   	  " 展示类和方法结构插件
+Plugin 'dracula/vim'			  " 主题
+Plugin 'fatih/vim-go'			  " golang
+Plugin 'Yggdroot/indentLine'      " 缩进标线 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " 必须
