@@ -45,6 +45,6 @@ colorscheme solarized
 
 " 快捷键设置
 map <F9>  :NERDTreeToggle<CR>
-map <C-N> :tabnext<CR>  
-map <C-M> :tabprevious<CR>  
+map <C-M> :tabnext<CR>  
+map <C-N> :tabprevious<CR>  
 map <F10> :TagbarToggle<CR>
