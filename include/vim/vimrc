@@ -13,6 +13,7 @@ Plugin 'scrooloose/nerdtree' 	  "nerdtree插件
 Plugin 'mhinz/vim-startify'  	  "vim首页美化插件
 Plugin 'majutsushi/tagbar'   	  "展示类和方法结构插件
 Plugin 'dracula/vim'			  "主题
+Plugin 'fatih/vim-go'			  "golang
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " 必须
@@ -48,3 +49,4 @@ map <F9>  :NERDTreeToggle<CR>
 map <C-M> :tabnext<CR>  
 map <C-N> :tabprevious<CR>  
 map <F10> :TagbarToggle<CR>
+
