@@ -2,6 +2,6 @@
 
 sudo add-apt-repository ppa:zeal-developers/ppa;
 
-sudo apt-get update
+sudo apt-get update;
 
-sudo apt-get install zeal
+sudo apt-get install zeal;
