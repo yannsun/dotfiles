@@ -1,0 +1,2 @@
+#! /bin/bash
+echo "source /home/yannsun/Downloads/socks-cli/deactivate"

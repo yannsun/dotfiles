@@ -18,6 +18,7 @@ Plugin 'fatih/vim-go'			  " golang
 Plugin 'Yggdroot/indentLine'      " 缩进标线 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ekalinin/Dockerfile.vim'  " Docker配置语法高亮
 call vundle#end()            " 必须
 filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
 
@@ -28,6 +29,7 @@ set nu 						  "显示行号
 syntax on					  "语法高亮
 set autoindent 				  "自动缩进
 set tabstop=4		   		  "设置tab键为4个空格
+set shiftwidth=4
 set tags+=./tags			  "设置tags目录
 set hlsearch                  "高亮搜索
 set noswapfile				  "不生成swp文件
