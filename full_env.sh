@@ -1,5 +1,5 @@
 #! /bin/bash
-# install_dev.sh : 安装开发环境
+# full_env.sh : 安装完整的开发环境
 
 # Check if user is root
 if [ $(id -u) != "0" ]; then
