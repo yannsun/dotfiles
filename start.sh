@@ -1,12 +1,13 @@
 #! /bin/bash
-# install_dev.sh : 安装开发环境
+# start.sh : start 启动脚本
 
-# Check if user is root
-if [ $(id -u) != "0" ]; then
+# Check root permission 检查root权限
+if [ "$(id -u)" != "0" ]; then
     echo "Error: You must be root to run this script, please use root to install lnmp"
     exit 1
 fi
 
+# Output begin information 输出
 clear
 echo "+------------------------------------------------------------------------+"
 echo "|          Install the development environment, Written by Yannsun       |"
