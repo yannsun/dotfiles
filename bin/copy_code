@@ -1,0 +1,2 @@
+#! /bin/bash
+cp -rv /home/yannsun/code/* /media/yannsun/UUI/code
